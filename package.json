@@ -1,0 +1,31 @@
+{
+  "name": "food-delivery-app",
+  "version": "1.0.0",
+  "description": "Sample food delivery app",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronnieHentry/swift-food.git"
+  },
+  "keywords": [
+    "food",
+    "delivery"
+  ],
+  "author": "Ronnie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronnieHentry/swift-food/issues"
+  },
+  "homepage": "https://github.com/ronnieHentry/swift-food#readme",
+  "dependencies": {
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

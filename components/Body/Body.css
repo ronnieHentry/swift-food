@@ -1,0 +1,9 @@
+.restro-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.search {
+  padding: 10px;
+}
