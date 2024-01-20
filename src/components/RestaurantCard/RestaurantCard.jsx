@@ -1,3 +1,4 @@
+import { CLOUDINARY_URL } from "../../../public/constants";
 import "./RestaurantCard.css";
 
 const RestaurantCard = (props) => {
@@ -6,14 +7,11 @@ const RestaurantCard = (props) => {
   return (
     <div className="res-card">
       <div className="image-container">
-      <img
-        alt="res-logo"
-        className="res-logo"
-        src={
-          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
-          cloudinaryImageId
-        }
-      />
+        <img
+          alt="res-logo"
+          className="res-logo"
+          src={CLOUDINARY_URL + cloudinaryImageId}
+        />
       </div>
       <h3>{name}</h3>
       <h4>{cuisines.join(", ")}</h4>

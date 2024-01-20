@@ -1,13 +1,11 @@
-import "./Header.css"
+import { LOGO_URL } from "../../../public/constants";
+import "./Header.css";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <img
-          className="logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeKeL-20DzOW61DQ3RQac1GXV7D99XB2HPhg&usqp=CAU"
-        />
+        <img className="logo" src={LOGO_URL} />
       </div>
       <div className="nav-items">
         <ul>
@@ -21,4 +19,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Header;

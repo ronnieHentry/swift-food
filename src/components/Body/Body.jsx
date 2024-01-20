@@ -1,6 +1,6 @@
 import RestaurantCard from "../RestaurantCard/RestaurantCard";
 import "./Body.css";
-import { restaurantData } from "../../public/RestaurantData";
+import { restaurantData } from "../../../public/RestaurantData";
 
 const Body = () => {
   return (
